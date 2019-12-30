@@ -8,7 +8,7 @@
       </span>
     </div>
   </header>
-  <div class="entry-content">
+  <div class="entry-content text-lg">
     @php the_content() @endphp
   </div>
   <footer>
