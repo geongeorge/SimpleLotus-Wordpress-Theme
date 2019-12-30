@@ -12,11 +12,11 @@ p {
 }
 
 a {
-  @apply text-primary no-underline border-b border-transparent;
+  @apply text-blue-400 no-underline border-b border-transparent;
 
   transition: 0.2s ease;
 
   &:hover {
-    @apply border-primary;
+    @apply underline;
   }
 }

@@ -9,7 +9,8 @@
  *
  * @import "tailwindcss/preflight";
  */
-@tailwind preflight;
+
+@tailwind base;
 
 /** Import variables */
 @import "common/variables";
@@ -71,3 +72,6 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+@import "components/links";
+
